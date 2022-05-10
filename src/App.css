@@ -1,0 +1,43 @@
+.App {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.items {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.circlularButton {
+	background: transparent;
+	border: none;
+	background: rgb(96, 45, 205);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.container {
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+.container > div {
+	padding: 10px;
+}
+
+.container>div:nth-child(odd) {
+	background-color: gray;
+	color: white;
+	padding: 10px;
+}
+
+.items > div {
+	width: 30%;
+}
+				
